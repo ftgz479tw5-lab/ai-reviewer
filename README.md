@@ -107,7 +107,9 @@ The action requires:
 - `LLM_MODEL`: Which LLM model to use. Make sure the model is [supported](https://github.com/presubmit/ai-reviewer/blob/main/src/ai.ts) and matches the `LLM_API_KEY`.
 - `LLM_BASE_URL` (optional): Base URL for OpenAI-compatible providers when using `LLM_PROVIDER=ai-sdk` (e.g., `https://openrouter.ai/api/v1` for OpenRouter). Not applicable for `sap-ai-sdk` provider.
 
-### Using OpenAI-Compatible Providers
+### Using OpenAI-Compatible Providers  
+Test AI review
+
 
 To use OpenRouter or other OpenAI-compatible providers with the `ai-sdk` provider, add the `LLM_BASE_URL` environment variable:
 
